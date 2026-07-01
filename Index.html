@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Oliveira Rodrigues | Portfólio & Contato</title>
+  <style>
+    body { 
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; 
+      background-color: #fafafa; 
+      color: #262626; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    .container { 
+      max-width: 500px; 
+      margin: 40px auto; 
+      padding: 0 20px;
+      text-align: center; 
+    }
+    
+    /* Efeito de Gradiente para textos */
+    .texto-destaque { 
+      background: linear-gradient(45deg, #dc2743, #cc2366, #bc1888); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; 
+    }
+    
+    .texto-destaque-alternativo { 
+      background: linear-gradient(45deg, #0077b5, #00a0dc); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; 
+    }
+    
+    h1 { font-size: 26px; margin-bottom: 8px; font-weight: 700; }
+    h2 { font-size: 20px; margin-bottom: 10px; font-weight: 600; }
+    p { color: #666; font-size: 15px; line-height: 1.5; margin-top: 0; margin-bottom: 25px; }
+
+    /* Botões */
+    .btn { 
+      display: inline-flex; 
+      align-items: center; 
+      justify-content: center; 
+      font-weight: 600; 
+      text-decoration: none; 
+      padding: 14px 28px; 
+      border-radius: 50px; 
+      transition: all 0.3s ease; 
+      cursor: pointer; 
+      color: white !important; 
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+    
+    .btn-insta { 
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); 
+      box-shadow: 0 4px 15px rgba(220, 39, 67, 0.3); 
+      width: calc(100% - 65px); /* Dá espaço para a imagem ao lado */
+      margin-bottom: 0;
+    }
+    
+    .btn-form { 
+      background: linear-gradient(45deg, #673ab7, #8e24aa); 
+      box-shadow: 0 4px 15px rgba(103, 58, 183, 0.3); 
+    }
+    
+    .btn-linkedin {
+      background: linear-gradient(45deg, #0077b5, #00a0dc);
+      box-shadow: 0 4px 15px rgba(0, 119, 181, 0.3);
+    }
+    
+    .btn:hover { 
+      transform: translateY(-3px); 
+      filter: brightness(1.1); 
+    }
+    
+    .btn:active {
+      transform: translateY(1px);
+    }
+    
+    .secao { 
+      margin-top: 40px; 
+      padding-top: 30px; 
+      border-top: 1px solid #eeeeee; 
+    }
+    
+    .perfil-bloco {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      margin-bottom: 35px;
+      text-align: left;
+    }
+    
+    .perfil-bloco h2 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px 0;
+      font-size: 13px;
+      color: #999999;
+      border-top: 1px solid #eeeeee;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+  
+    <!-- CABEÇALHO / APRESENTAÇÃO PRINCIPAL -->
+    <h1>Lucas Oliveira Rodrigues</h1>
+    <p>Rio de Janeiro, RJ</p>
+
+    <!-- SEÇÃO 1: SOBRE / OBJETIVO PROFISSIONAL -->
+    <div class="perfil-bloco">
+      <h2>Objetivo Profissional</h2>
+      <p style="margin-bottom: 0; text-align: justify;">
+        Profissional focado no desenvolvimento de carreira na área administrativa, buscando oportunidades para somar à equipe através de organização, suporte operacional, dinamismo e proatividade em rotinas de escritório e posições entry-level.
+      </p>
+    </div>
+
+    <!-- SEÇÃO 2: REDES E CONEXÕES -->
+    <div class="secao">
+      <h2>Conecte-se Comigo</h2>
+      <p>Fale direto pelos meus canais oficiais ou acompanhe meus projetos.</p>
+      
+      <!-- Bloco Instagram alinhado lado a lado -->
+      <div style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 15px;">
+        <a href="https://instagram.com/Lucas_rodrigueskkk" class="btn btn-insta" target="_blank" rel="noopener noreferrer">Siga no Instagram</a>
+       <img src="content://com.android.providers.media.documents/document/image%3A1000154159" width="50" style="border-radius: 10px; height: 50px; object-fit: cover;">
+      </div>
+
+      <!-- Botão LinkedIn -->
+      <a href="https://www.linkedin.com" class="btn btn-linkedin" target="_blank" rel="noopener noreferrer">Acompanhar no LinkedIn</a>
+    </div>
+
+    <!-- SEÇÃO 3: FORMULÁRIO DE CONTATO -->
+    <div class="secao">
+      <h2>Envie seu <span class="texto-destaque">Usuário</span></h2>
+      <p>Quer trocar experiências ou deixar seu contato? Preencha o formulário rapidamente abaixo.</p>
+      
+      <a href="https://docs.google.com/forms/d/1idzTNIhCBRFZfnhbjRpWdhiR49WLOtvMuEZbRjbYqx4/edit" class="btn btn-form" target="_blank" rel="noopener noreferrer">Acessar Formulário</a>
+    </div>
+
+    <!-- RODAPÉ DA PÁGINA -->
+    <footer>
+      &copy; 2026 Lucas Oliveira Rodrigues. Todos os direitos reservados.
+    </footer>
+    
+  </div>
+
+</body>
+</html>
